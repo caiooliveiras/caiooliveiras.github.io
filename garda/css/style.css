@@ -180,7 +180,7 @@ body{
 	padding-left: 0.7em;
 }
 .nav-logo-caixa{
-  padding-top: 2em;
+  padding-top: 1.95em;
   padding-bottom: 1em;
   padding-right: 0.7em;
 }
@@ -224,8 +224,8 @@ h1{
 }
 .content-financiamento-disc{
 	position:absolute; 
-	top:65%; 
-	left:20%; 
+	top:75%; 
+	left:15%; 
 	text-align: left;
 	font-weight: bold;
 
@@ -242,7 +242,7 @@ h1{
 	box-shadow: 0 1px #3e83b5;
 }
 .content-sidebar-link > span{
-  font-size: 1.044em;
+  font-size: 1.15em;
 	color: white;
 	text-decoration: none !important;
 }
@@ -354,6 +354,14 @@ h1{
   background: linear-gradient(to bottom, rgba(255,179,45,1) 0%,rgba(255,154,0,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb32d', endColorstr='#ff9a00',GradientType=0 );
 
+}
+
+@media (max-width: 1239px) { 
+.nav-btn-tel{display: none;}
+}
+
+@media (max-width: 767px) { 
+.nav-btn-tel{display: block;}
 }
 
 .nav-btn-title{
