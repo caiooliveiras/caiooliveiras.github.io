@@ -1,0 +1,58 @@
+/* Feliz no emprego Style */
+/* Global */
+@font-face{
+  font-family: "thin";
+  src: url("../fonts/Aileron-Thin.otf");
+}
+@font-face{
+  font-family: "bold";
+  src: url("../fonts/Aileron-bold.otf");
+}
+@font-face{
+  font-family: "black";
+  src: url("../fonts/Aileron-black.otf");
+}
+body{
+  font-family: "thin";
+  color: #fff;
+  background: #2c3d4f;
+}
+.img-center {
+    margin: 0 auto;
+    padding-right: 120px;
+}
+.logo-feliz{
+  font-family: "black";
+  color: #fff;
+  font-size: 48px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+}
+.logo-noemprego{
+  font-size: 48px;
+  font-family: "thin";
+}
+
+.padding{
+  padding-top: 48px;
+  position: absolute;
+  left: 662px;
+}
+.center{
+  text-align: center;
+}
+.tm{
+  position: absolute;
+  padding-top: 10px;
+  font-size: 10px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p{
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
