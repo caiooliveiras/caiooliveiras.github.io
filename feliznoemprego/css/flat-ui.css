@@ -1090,9 +1090,9 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 19px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.471;
-  border-radius: 6px;
+  border-radius: 0px;
   }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -1308,7 +1308,7 @@ label {
   line-height: 1.467;
   color: #34495e;
   border: 2px solid #bdc3c7;
-  border-radius: 6px;
+  border-radius: 0px;
   box-shadow: none;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
           transition: border .25s linear, color .25s linear, background-color .25s linear;
@@ -1464,30 +1464,29 @@ select[multiple].form-group-hg .select2-search input[type="text"] {
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline {
-  color: #2ecc71;
+  color: #1abb9a;
   }
 .has-success .form-control,
 .has-success .select2-search input[type="text"] {
-  color: #2ecc71;
-  border-color: #2ecc71;
+  border-color: #1abb9a;
   box-shadow: none;
   }
 .has-success .form-control::-moz-placeholder,
 .has-success .select2-search input[type="text"]::-moz-placeholder {
-  color: #2ecc71;
+  color: #1abb9a;
   opacity: 1;
   }
 .has-success .form-control:-ms-input-placeholder,
 .has-success .select2-search input[type="text"]:-ms-input-placeholder {
-  color: #2ecc71;
+  color: #1abb9a;
   }
 .has-success .form-control::-webkit-input-placeholder,
 .has-success .select2-search input[type="text"]::-webkit-input-placeholder {
-  color: #2ecc71;
+  color: #1abb9a;
   }
 .has-success .form-control:focus,
 .has-success .select2-search input[type="text"]:focus {
-  border-color: #2ecc71;
+  border-color: #1abb9a;
   box-shadow: none;
   }
 .has-success .input-group-addon {
@@ -4026,7 +4025,6 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   }
 .navbar {
   min-height: 53px;
-  margin-bottom: 30px;
   font-size: 16px;
   border: none;
   border-radius: 6px;

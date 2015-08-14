@@ -5,6 +5,14 @@
   src: url("../fonts/Aileron-Thin.otf");
 }
 @font-face{
+  font-family: "light";
+  src: url("../fonts/Aileron-light.otf");
+}
+@font-face{
+  font-family: "regular";
+  src: url("../fonts/Aileron-regular.otf");
+}
+@font-face{
   font-family: "bold";
   src: url("../fonts/Aileron-bold.otf");
 }
@@ -12,31 +20,267 @@
   font-family: "black";
   src: url("../fonts/Aileron-black.otf");
 }
+@font-face{
+  font-family: "black-ita";
+  src: url("../fonts/Aileron-blackitalic.otf");
+}
 body{
   font-family: "thin";
   color: #fff;
+  background: #f3f3f3;
+  min-width: 510px;
+}
+ul, li{
+ list-style-type:none
+}
+footer{
   background: #2c3d4f;
 }
-.img-center {
-    margin: 0 auto;
-    padding-right: 120px;
-}
-.logo-feliz{
-  font-family: "black";
-  color: #fff;
-  font-size: 48px;
-  padding-right: 10px;
-  letter-spacing: 2px;
-}
-.logo-noemprego{
-  font-size: 48px;
-  font-family: "thin";
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0  !important;
+  }
 }
 
-.padding{
-  padding-top: 48px;
-  position: absolute;
-  left: 662px;
+.no-space {
+    padding: 0  !important;
+    margin: 0  !important;
+  }
+
+/* NAV */
+.navbar-inverse{
+  background-color: #2c3d4f !important;
+}
+li>a{
+  color: #1abb9a !important;
+}
+.nav{
+  margin-top: 41px;
+  font-size: 18px;
+}
+
+.logo{
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.navbar-inverse .navbar-nav>.active>a{
+  border-bottom: #fff 1px solid;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+.navbar-nav>li>a {
+    padding: 0px;
+    margin-right: 21px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+ul > li > a:hover{
+  color: #fff !important;
+  text-decoration: none;
+  -moz-transition: 0.3s color ease;
+  -o-transition: 0.3s color ease;
+  -ms-transition: 0.3s color ease;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo-feliz, .logo-noemprego {
+        font-size: 22px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo-feliz {
+        font-size: 22px !important;
+        padding-left: 36px;
+    }
+}
+/*Captação*/
+#captacao{
+  padding-top: 0 important;
+  height: 355px;
+  background: #2c3d4f url(../img/captacao-bg.png) center repeat;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.text-captacao-lg{
+  padding-top: 46px;
+  padding-bottom: 20px;
+  font-size: 36px;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.text-captacao-md{
+  font-family: 'thin';
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+/*Content*/
+#conteudo{
+  -webkit-box-shadow: -1px -20px 58px 15px rgba(0,0,0,0.49);
+  -moz-box-shadow: -1px -20px 58px 15px rgba(0,0,0,0.49);
+  box-shadow: -1px -20px 58px 15px rgba(0,0,0,0.49);
+  background: #f3f3f3;
+}
+.noticias-title{
+  padding-top: 46px;
+  padding-bottom: 46px;
+  color: #2c3d4f;
+  font-size: 48px;
+}
+.post-padding{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.retangulo-title{
+  font-size: 12px;
+  color: #2c3d4f;
+  font-family: 'bold';
+  padding-left: 3px;
+}
+.post-title{
+  font-size: 30px;
+  color: #2c3d4f;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: 'bold';
+}
+.post-img{
+      height: 300px;
+      background: center center url(../img/post-img-coaching.png);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.post2-img{
+      height: 300px;
+      background: center center url(../img/post-img-branding.png);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.blank{
+      height: 300px;
+      background: #fff url(../img/blank.png);
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      border: 1px #ddd solid;
+}
+.p-post{
+  color: #2c3d4f;
+  font-size: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.a-post{
+  color: #f1c40f;
+  font-family: 'bold';
+}
+.populares{
+  color: #2c3d4f;
+  font-size: 30px;
+  font-family: 'black-ita';
+}
+.populares-title{
+  color: #2c3d4f;
+  font-family: 'black-ita';
+  font-size: 16px;
+}
+.circle{
+  color: #fff ;
+  font-family: 'black-ita';
+  border-radius: 60%;
+  padding: 1px 1px 1px 1px;
+  background: #1abb9a;
+  border: #1abb9a 3px solid;
+  font-size: 26px;
+}
+.circle:hover{
+  background: #2c3d4f;
+  border: #1abb9a 3px solid;
+}
+.curtidas{
+  font-size: 16px;
+  color: #c1c1c1;
+  padding-left: 48px;
+  padding-bottom: 20px;
+}
+.numbers{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.numbers-title{
+  color: #2c3d4f;
+  font-family: 'bold';
+  padding: 25px;
+}
+.page-active{
+  color: #fff ;
+  font-family: 'bold';
+  border-radius: 60%;
+  padding: 5px 10px 5px 10px;
+  background: #1abb9a;
+}
+.page-active:hover{
+  color: #fff;
+}
+.assinar{
+  background: #2c3d4f;
+}
+.assinar-p{
+  font-family: 'light';
+  font-size: 14px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: #fff;
+}
+.btn-ghost{
+  background: transparent;
+  border: 2px #1abb9a solid;
+  font-family: 'black-ita';
+  margin-bottom: 23px;
+}
+/* Footer */
+.footer-title{
+  font-size: 48px;
+  font-family: 'bold';
+  color: #1abb9a;
+}
+.footer-space{
+  padding-top: 70px;
+}
+.direitos{
+  background-color: #19232e;
+  color: #1abb9a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  font-family: 'bold';
+}
+/* Text */
+.bold{
+  font-family: 'bold';
+}
+.thin{
+  font-family: 'thin';
+}
+.black{
+  font-family: 'black';
+}
+.black-ita{
+  font-family: 'black-ita';
 }
 .center{
   text-align: center;
@@ -46,13 +290,23 @@ body{
   padding-top: 10px;
   font-size: 10px;
 }
+/* Others */
+.img-center {
+    margin: 0 auto;
+    padding-right: 120px;
+}
+.logo-feliz{
+  font-family: "black";
+  color: #fff;
+  font-size: 40px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+}
+.logo-noemprego{
+  font-size: 40px;
+  font-family: "thin";
+}
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.p{
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
