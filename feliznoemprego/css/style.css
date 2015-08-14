@@ -1,29 +1,96 @@
 /* Feliz no emprego Style */
 /* Global */
-@font-face{
-  font-family: "thin";
-  src: url("../fonts/Aileron-Thin.otf");
+
+@font-face {
+    font-family: 'thin';
+    src: url('../fonts/aileron-thin-webfont.eot');
+    src: url('../fonts/aileron-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-thin-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-thin-webfont.woff') format('woff'),
+         url('../fonts/aileron-thin-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-thin-webfont.svg#aileronthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-@font-face{
-  font-family: "light";
-  src: url("../fonts/Aileron-light.otf");
+
+
+
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('../fonts/aileron-regular-webfont.eot');
+    src: url('../fonts/aileron-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-regular-webfont.woff') format('woff'),
+         url('../fonts/aileron-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-@font-face{
-  font-family: "regular";
-  src: url("../fonts/Aileron-regular.otf");
+
+
+
+
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/aileron-bold-webfont.eot');
+    src: url('../fonts/aileron-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-bold-webfont.woff') format('woff'),
+         url('../fonts/aileron-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-bold-webfont.svg#aileronbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-@font-face{
-  font-family: "bold";
-  src: url("../fonts/Aileron-bold.otf");
+
+
+
+
+@font-face {
+    font-family: 'black';
+    src: url('../fonts/aileron-black-webfont.eot');
+    src: url('../fonts/aileron-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-black-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-black-webfont.woff') format('woff'),
+         url('../fonts/aileron-black-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-@font-face{
-  font-family: "black";
-  src: url("../fonts/Aileron-black.otf");
+
+
+@font-face {
+    font-family: 'black-ita';
+    src: url('../fonts/aileron-blackitalic-webfont.eot');
+    src: url('../fonts/aileron-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-blackitalic-webfont.woff') format('woff'),
+         url('../fonts/aileron-blackitalic-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-blackitalic-webfont.svg#aileronblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-@font-face{
-  font-family: "black-ita";
-  src: url("../fonts/Aileron-blackitalic.otf");
+
+
+
+@font-face {
+    font-family: 'light';
+    src: url('../fonts/aileron-light-webfont.eot');
+    src: url('../fonts/aileron-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-light-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-light-webfont.woff') format('woff'),
+         url('../fonts/aileron-light-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-light-webfont.svg#aileronlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 body{
   font-family: "thin";
