@@ -10,10 +10,41 @@
 <link rel="stylesheet" href="css/clear.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <!-- Html Content -->
 <body>
+<!-- Right Bar -->
+<div id="right" class="hidden-xs">
+	<a href="http://caixa.gov.br" target="_blank"><img src="img/logotipo-caixa.png" class="img-responsive" style="padding: 45px 20px 15px 20px"></a>
+		<hr style="padding-bottom: 0px; margin-bottom: 0px;">
+	<div class="right-content">
+		<a href="#" data-toggle="collapse" data-target="#habitacao">
+			<div class="habitacao right-p active">
+				<i class="fa fa-home fa-5x right-icon"></i>
+				<p style="font-size: 12px;">Habitação</p>
+			</div>
+		</a>
+		<a href="#"  data-toggle="collapse" data-target="#minha-casa">
+			<div class="habitacao right-p">
+					<img src="img/minha-casa.png" class="img-responsive" style="margin: 0 auto;">
+				<p style="font-size: 12px;">Minha Casa Minha Vida</p>
+			</div>
+		</a>
+		<a href="#"  data-toggle="collapse" data-target="#emprestimos">
+			<div class="habitacao right-p">
+				<i class="fa fa-child fa-5x right-icon"></i>
+				<p style="font-size: 12px;">Empréstimos</p>
+			</div>
+		</a>
+		<a href="#"  data-toggle="collapse" data-target="#consorcios">
+			<div class="habitacao right-p">
+				<i class="fa fa-car fa-4x right-icon"></i>
+				<p style="font-size: 12px;">Consórcios</p>
+			</div>
+		</a>
+	</div>
+</div>
 <!-- Menu Nav -->
 <div id="header-index">
 	<div class="navbar navbar-default navbar-static-top bs-docs-nav no-gutter" role="banner">
@@ -168,9 +199,11 @@
 			</ul>
 			<ul>
 				<li>
+					<!--
 				<div class="pull-right hidden-xs hidden-sm nav-logo-caixa">
 					<a href="http://www.caixa.gov.br/Paginas"><img src="img/caixa-aqui.png" alt=""></a>
 				</div>
+					-->
 				</li>
 			</ul>
 			</li>
@@ -179,57 +212,114 @@
 	</div>
 </div>
 </div>
+<!-- Right Bar -->
 <!-- Content -->
+
 <div id="content-index">
 <div class="container-fluid">
 	<div class="row-fluid">
-		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" style="position:relative; top:-40px; left:0px;">
-			<h1 class="text-bold" style="font-size: 10.5vw; text-shadow: 0 1px 3px rgba(0,0,0,.5);">Título</h1>
-			<img src="img/home-homem.png" alt="" class="img-responsive center-block">
-			<div class="content-financiamento-disc">
-				<h3 class="hidden-sm hidden-xs" style="font-weight: bold; padding-bottom: 20px;">Descrição: Não esquente a cabeça. Conte com</br>a Garda para financiar seus negócios.​​</h3>
-				<a href="#" class="btn btn-lg btn-default-header nav-btn-title hidden-xs">Saiba mais <span class="glyphicon glyphicon-send"></span></a>
+
+		<div class="item">
+			<div class="collapse" id="habitacao">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" style="position:relative; top:-40px; left:0px;">
+					<h1 class="text-bold" style="font-size: 10.5vw; text-shadow: 0 1px 3px rgba(0,0,0,.5);">Habitação</h1>
+					<img src="img/home-homem.png" alt="" class="img-responsive center-block">
+					<div class="content-financiamento-disc">
+						<h3 class="hidden-sm hidden-xs" style="font-weight: bold; padding-bottom: 20px;">Descrição: Não esquente a cabeça. Conte com</br>a Garda para financiar seus negócios.​​</h3>
+						<a href="#" class="btn btn-lg btn-default-header nav-btn-title hidden-xs">Saiba mais <span class="glyphicon glyphicon-send"></span></a>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="col-md-3 col-lg-3 content-sidebar visible-md visible-lg text-bold" style="letter-spacing: -1px;">
-			<h3 class="pull-left">Destaques Garda</h3>
+
+		<div class="item">
+			<div class="collapse" id="minha-casa">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" style="position:relative; top:-40px; left:0px;">
+					<h1 class="text-bold" style="font-size: 10.5vw; text-shadow: 0 1px 3px rgba(0,0,0,.5);">Minha Casa Minha Vida</h1>
+					<img src="img/home-homem.png" alt="" class="img-responsive center-block">
+					<div class="content-financiamento-disc">
+						<h3 class="hidden-sm hidden-xs" style="font-weight: bold; padding-bottom: 20px;">Descrição: Não esquente a cabeça. Conte com</br>a Garda para financiar seus negócios.​​</h3>
+						<a href="#" class="btn btn-lg btn-default-header nav-btn-title hidden-xs">Saiba mais <span class="glyphicon glyphicon-send"></span></a>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-3 col-lg-3 content-sidebar-bar visible-md visible-lg">
-			<a class="content-sidebar-link" href="#">
-			<span class="content-sidebar-disc pull-left text-bold">Destaque 01</span>
-			<span class="content-sidebar-disc-content pull-left">​Habitacional, Minha Casa Minha Vida, carros, motos. Saiba mais</span>
-			</a>
+
+		<div class="item">
+			<div class="collapse" id="emprestimos">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" style="position:relative; top:-40px; left:0px;">
+					<h1 class="text-bold" style="font-size: 10.5vw; text-shadow: 0 1px 3px rgba(0,0,0,.5);">Empréstimos</h1>
+					<img src="img/home-homem.png" alt="" class="img-responsive center-block">
+					<div class="content-financiamento-disc">
+						<h3 class="hidden-sm hidden-xs" style="font-weight: bold; padding-bottom: 20px;">Descrição: Não esquente a cabeça. Conte com</br>a Garda para financiar seus negócios.​​</h3>
+						<a href="#" class="btn btn-lg btn-default-header nav-btn-title hidden-xs">Saiba mais <span class="glyphicon glyphicon-send"></span></a>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-3 col-lg-3 content-sidebar-bar visible-md visible-lg">
-			<a class="content-sidebar-link" href="#">
-			<span class="content-sidebar-disc pull-left text-bold">Destaque 02</span>
-			<span class="content-sidebar-disc-content pull-left">​Praticidade, comodidade e uma das melhores tarifas do mercado.</span>
-			</a>
+
+
+		<div class="item">
+			<div class="collapse" id="consorcios">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" style="position:relative; top:-40px; left:0px;">
+					<h1 class="text-bold" style="font-size: 10.5vw; text-shadow: 0 1px 3px rgba(0,0,0,.5);">Consórcios</h1>
+					<img src="img/home-homem.png" alt="" class="img-responsive center-block">
+					<div class="content-financiamento-disc">
+						<h3 class="hidden-sm hidden-xs" style="font-weight: bold; padding-bottom: 20px;">Descrição: Não esquente a cabeça. Conte com</br>a Garda para financiar seus negócios.​​</h3>
+						<a href="#" class="btn btn-lg btn-default-header nav-btn-title hidden-xs">Saiba mais <span class="glyphicon glyphicon-send"></span></a>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-3 col-lg-3 content-sidebar-bar visible-md visible-lg">
-			<a class="content-sidebar-link" href="#">
-			<span class="content-sidebar-disc pull-left text-bold">Destaque 03</span>
-			<span class="content-sidebar-disc-content pull-left">​Praticidade, comodidade e uma das melhores tarifas do mercado.</span>
-			</a>
-		</div>
-		<div class="col-md-3 col-lg-3 content-sidebar-bar visible-md visible-lg">
-			<a class="content-sidebar-link" href="#">
-			<span class="content-sidebar-disc pull-left text-bold">Destaque 04</span>
-			<span class="content-sidebar-disc-content pull-left">​Praticidade, comodidade e uma das melhores tarifas do mercado.</span>
-			</a>
-		</div>
-		<div class="col-md-3 col-lg-3 visible-md visible-lg">
-			<a class="content-sidebar-link" href="#">
-			<h4 class="pull-left">Mais Serviços +</h4>
-			</a>
-		</div>
+
+
 	</div>
 </div>
 </div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel-group" id="panel-471424">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-471424" href="#panel-element-959110">Collapsible Group Item #1</a>
+					</div>
+					<div id="panel-element-959110" class="panel-collapse collapse">
+						<div class="panel-body">
+							Anim pariatur cliche...
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-471424" href="#panel-element-818895">Collapsible Group Item #2</a>
+					</div>
+					<div id="panel-element-818895" class="panel-collapse collapse in">
+						<div class="panel-body">
+							Anim pariatur cliche...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- CLick to show data and hide the all other elements -->
+<script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+
 </body>
 </html>

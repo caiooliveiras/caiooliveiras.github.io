@@ -1,6 +1,47 @@
 /* NAV HEADER */
 /* NAV HEADER */
 /* NAV HEADER */ /* NAV HEADER */ /* NAV HEADER */
+#right{
+  z-index: 99999;
+  min-height: 106%;
+  background-color: #FFF;
+  width: 150px;
+  right: 0;
+  position: fixed;
+  border-left: 1px solid #15527e;
+}
+.active {
+    margin: 0;
+    border-right: 5px solid #ffa100;
+}
+.logo-caixa{
+  height: 20%;
+}
+.habitacao{
+  text-align: center;
+  height: 20%;
+}
+.right-p{
+  color: #70777b;
+  font-family: 'futura-eb';
+  padding: 20px 0 20px 0;
+}
+.right-p:hover{
+  color: #32383b;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f5f7f7;
+  -moz-transition: 0.6s color ease, border-bottom 0.3s, border-top 0.3s;
+  -o-transition: 0.6s color ease, border-bottom 0.3s, border-top 0.3s;
+  -ms-transition: 0.6s color ease, border-bottom 0.3s, border-top 0.3s;
+  -webkit-transition: 0.6s color ease, border-bottom 0.3s, border-top 0.3s;
+  transition: 0.6s color ease, border-bottom 0.3s, border-top 0.3s;
+}
+.habitacao > i{
+  color: #ff7800 !important;
+  padding-bottom: 10px;
+}
+
 @font-face {
   font-family: "futurafont";
   src: url("futura.ttf");
@@ -38,6 +79,12 @@ body{
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #f8a23d;
+  text-decoration: none;
+  -moz-transition: 0.3s color ease;
+  -o-transition: 0.3s color ease;
+  -ms-transition: 0.3s color ease;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
 
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
@@ -51,6 +98,12 @@ body{
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: #FF7801;
   background-color: #EEF4F7;
+  text-decoration: none;
+  -moz-transition: 0.3s color ease;
+  -o-transition: 0.3s color ease;
+  -ms-transition: 0.3s color ease;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
   background-color: #277fb8;
@@ -58,10 +111,22 @@ body{
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #f8a23d;
   background-color: #277FB8;
+  text-decoration: none;
+  -moz-transition: 0.3s color ease;
+  -o-transition: 0.3s color ease;
+  -ms-transition: 0.3s color ease;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #f8a23d;
   background-color: #277FB8;
+  text-decoration: none;
+  -moz-transition: 0.3s color ease;
+  -o-transition: 0.3s color ease;
+  -ms-transition: 0.3s color ease;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
 }
 .navbar-default .navbar-toggle {
   border-color: #277fb8;
@@ -81,6 +146,12 @@ body{
 }
 .navbar-default .navbar-link:hover {
   color: #ff8000;
+  text-decoration: none;
+  -moz-transition: 0.3s color ease;
+  -o-transition: 0.3s color ease;
+  -ms-transition: 0.3s color ease;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
 
 }
 .dropdown-menu{
@@ -93,10 +164,22 @@ body{
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ff8000;
+    text-decoration: none;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -ms-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ff8000;
     background-color: #ffffff;
+    text-decoration: none;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -ms-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
   }
 }
 
@@ -116,6 +199,12 @@ body{
 }
 .dropdown-submenu:hover>.dropdown-menu {
     display:block;
+    text-decoration: none;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -ms-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
 }
 .dropdown-submenu>a:after {
     display:block;
@@ -129,9 +218,21 @@ body{
     border-left-color:#cccccc;
     margin-top:5px;
     margin-right:-10px;
+    text-decoration: none;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -ms-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
 }
 .dropdown-submenu:hover>a:after {
     border-left-color: #FF7801;
+    text-decoration: none;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -ms-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
 }
 .dropdown-submenu.pull-left {
     float:none;
@@ -154,6 +255,12 @@ body{
 .dropdown-menu>li>a:hover {
     color: #FF7801;
     background-color: #EEF4F7;
+    text-decoration: none;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -ms-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
 }
 
 
@@ -223,9 +330,9 @@ h1{
 	padding-top: 2.15em;
 }
 .content-financiamento-disc{
-	position:absolute; 
-	top:75%; 
-	left:15%; 
+	position:absolute;
+	top:75%;
+	left:15%;
 	text-align: left;
 	font-weight: bold;
 
@@ -294,16 +401,16 @@ h1{
   cursor:pointer;
 }
 #myCarousel .list-group .active {
-  background-color:#eee;  
+  background-color:#eee;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   #myCarousel {padding-right:33.3333%;}
-  #myCarousel .carousel-controls {display:none;}  
+  #myCarousel .carousel-controls {display:none;}
 }
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
   .carousel-caption p,
-  #myCarousel .list-group {display:none;} 
+  #myCarousel .list-group {display:none;}
 }
 
 /* Ghost Button */
@@ -357,11 +464,11 @@ h1{
 
 }
 
-@media (max-width: 1239px) { 
+@media (max-width: 1239px) {
 .nav-btn-tel{display: none;}
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 .nav-btn-tel{display: block;}
 }
 
