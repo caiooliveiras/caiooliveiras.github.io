@@ -30,6 +30,10 @@ footer{
    margin: 0 !important;
 }
 
+.navbar{
+  margin-bottom: 0px !important;
+}
+
 .navbar-default {
   font-size: 1.1em;
   background-color: #277FB8;
@@ -443,6 +447,12 @@ a:focus{
   padding-bottom: 1em;
 }
 
+@media screen and (max-width: 600px){
+  .content-title{
+    font-size: 2em;
+  }
+}
+
 /* CONTACT */
 
 .border{
@@ -480,6 +490,11 @@ a:focus{
   font-size: 13px;
   color: #979faf;
 }
+.p-form{
+  color: #1f2a47 !important;
+  padding-top: 7px;
+  font-size: 20px;
+}
 
 .text-footer-2{
   font-weight: 500;
@@ -509,3 +524,5 @@ a:focus{
   transition: 0.3s color ease;
 
 }
+
+/* Formulario */

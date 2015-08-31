@@ -103,6 +103,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
 
@@ -121,6 +122,21 @@
             c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
             b.getElementsByTagName("head")[0].appendChild(c);
         })(window,document);
+    </script>
+    <script>
+    $("button").on("click", function(){
+      var alertMsg = $(this).parent().data("target");
+      //First grab the data-target from the button's parent, or alternatively the button itself as I would recommend.
+      //Note, you have a typo which I moved forward with below.
+
+      /* var itemToShow = "#" + alertMsg;
+      alert(itemToShow); */
+
+      // I would recommend as well you don't use hashtags in your data-*
+      // elements. Rather as shown here, add the hashtag in with code.
+      $("#itens .collapse").hide();  //first hide all of the elements
+      $(alertMsg).show();  //then show the element related to your button click event data-target id.
+    });
     </script>
 
   </body>

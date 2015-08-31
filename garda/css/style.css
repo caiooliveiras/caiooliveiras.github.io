@@ -13,6 +13,7 @@
 .active {
     margin: 0;
     border-right: 5px solid #ffa100;
+    background-color: #f5f7f7;
 }
 .logo-caixa{
   height: 20%;

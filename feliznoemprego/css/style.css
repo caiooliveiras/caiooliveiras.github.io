@@ -120,10 +120,11 @@ footer{
 
 /* NAV */
 .navbar-inverse{
-  background-color: #2c3d4f !important;
+  background-color: #fff !important;
 }
 li>a{
-  color: #1abb9a !important;
+  color: #2c3e50 !important;
+  font-family: 'aileronregular';
 }
 .nav{
   margin-top: 41px;
@@ -149,7 +150,7 @@ li>a{
 }
 
 ul > li > a:hover{
-  color: #fff !important;
+  color: #1abb9a !important;
   text-decoration: none;
   -moz-transition: 0.3s color ease;
   -o-transition: 0.3s color ease;
@@ -175,6 +176,42 @@ ul > li > a:hover{
   height: 355px;
   background: #2c3d4f url(../img/captacao-bg.png) center repeat;
 }
+.arrow-e{
+  position: absolute;
+  top: 280px;
+  right: 220px;
+}
+.arrow-d{
+  position: absolute;
+  top: 280px;
+  left: 220px;
+}
+
+@media screen and (max-width: 1423px) {
+  .arrow-d{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+  }
+  .arrow-e{
+    position: absolute;
+    top: 280px;
+    right: 100px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .arrow-d{
+    position: absolute;
+    top: 320px;
+    left: 80px;
+  }
+  .arrow-e{
+    position: absolute;
+    top: 320px;
+    right: 80px;
+  }
+}
+
 .col-centered{
     float: none;
     margin: 0 auto;
@@ -364,14 +401,14 @@ ul > li > a:hover{
     padding-right: 120px;
 }
 .logo-feliz{
+  color: #2c3d4f;
   font-family: "black";
-  color: #fff;
-  font-size: 40px;
-  padding-right: 10px;
+  font-size: 30px;
+  padding-right: 3px;
   letter-spacing: 2px;
 }
 .logo-noemprego{
-  font-size: 40px;
+  font-size: 30px;
   font-family: "thin";
 }
 .center-block {

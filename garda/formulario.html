@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
-      <title>Garda - Abertura de Conta</title>
+      <title>Garda - Formulario de contato</title>
       <!-- Bootstrap -->
       <link rel="stylesheet" href="css/clear.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -163,10 +163,10 @@
                            </li>
                            <!-- END -->
                         </ul>
-                     <li>
+                     <li class="">
                         <a href="nossa-empresa.html">Nossa Empresa</a>
                      </li>
-                     <li class="">
+                     <li>
                         <a href="atendimento.html">Atendimento</a>
                      </li>
                      <li>
@@ -196,41 +196,41 @@
          </div>
       </div>
       <!-- Content -->
-      <div id="conta-corrente-pf">
-         <div class="container-fluid title div-border">
-            <div class="row">
-               <h1 class="content-title text-bold">Conta Corrente: Pessoa Física</h1>
-               <p>
-                  Conta destinada à movimentação de valores através de talão de cheque e/ou cartão.
-               </p>
-               <p>
-                  Destinado à pessoa física capaz acima de 18 anos ou emancipada.
-               </p>
-               <p>
-                  <strong>Documentos necessários:</strong> Documento de identificação pessoal, CPF, comprovante de residência recente e comprovante de renda.
-               </p>
+      <div id="atendimento">
+        <div class="container-fluid title div-border">
+          <form action="envia.php" method="post">
+            <h1 class="content-title text-bold" style="padding-bottom: 25px;">Formulário de contato</h1>
+            <div class="col-xs-12 col-md-6 nopadding">
+                <p class="p-form">Nome:</p>
+                <input name="nomeremetente" type="text" size="77" placeholder=" Seu nome">
+                <p class="p-form">E-mail(*):</p>
+                <input name="emailremetente" type="text" size="77" placeholder=" Seu e-mail">
+                <p class="p-form">Assunto:</p>
+                <input name="assunto" type="text" size="77" placeholder=" Digite aqui o assunto">
+                <p class="p-form">Mensagem:</p>
+                <textarea name="mensagem" cols="75" rows="5" id="textarea" placeholder=" Digite aqui sua mensagem."></textarea>
+                <br><br>
+                <input class="btn btn-default-header" type="submit" name="Submit" value="Enviar">
+                <input class="btn btn-default-header" type="reset" name="limpar" value="Limpar">
             </div>
-         </div>
-      </div>
-      <div id="conta-poupanca-pf">
-         <div class="container-fluid title div-border">
-            <div class="row">
-               <h1 class="content-title text-bold">Conta Poupança: Pessoa Física</h1>
-               <p>
-                  Conta de investimento destinada à pessoa física.
-               </p>
-               <p>
-                  Podendo ser aberta em nome de menor desde que representado.
-               </p>
-               <p>
-                  <strong>Documentos necessários:</strong> Documento de identificação pessoal e CPF (no caso de menor de idade: do representante e do menor) e comprovante de residência recente.
-               </p>
-            </div>
-         </div>
-      </div>
+          </form>
+        </div>
+
       <div class="container-fluid title div-border" style="background: #f3f5f9;">
          <div class="row">
-            <h1 class="content-title text-bold">Como Contratar?</h1>
+            <h1 class="content-title text-bold">Como contratar seu financiamento</h1>
+            <p style="font-size: 26px; color: #006bae;">Você a três passos de conquistar o seu imóvel.</p><br>
+            <p><strong style="color: #006bae;">Passo 1</strong><strong> - Aprovação de cadastro e crédito</strong></p>
+            <p>Você pode nos procurar para tirar suas dúvidas e entregar a sua documentação. A Caixa vai analisar o seu cadastro antes de aprovar o crédito.</p><br>
+
+            <p><strong style="color: #006bae;">Passo 2</strong><strong> - Aprovação de cadastro e crédito</strong></p>
+            <p>Os engenheiros da Caixa vão avaliar o imóvel. Para sua segurança, a Caixa também vai analisar a documentação dos vendedores, quando for o caso. Depois, a Caixa auxiliará na definição da melhor opção de financiamento para você e se outros documentos deverão ser apresentados.</p><br>
+
+            <p><strong style="color: #006bae;">Passo 3</strong><strong> - Aprovação de cadastro e crédito</strong></p>
+            <p>Com a entrega e validação da documentação necessária, você vai assinar o contrato. A partir daí, o seu sonho da casa própria será realizado e você terá até 35 anos para pagar seu financiamento.</p><br>
+            <p><strong style="color: #006bae;">CONTE CONOSCO!</strong></p><br>
+
+
             <!-- Contato -->
             <div class="col-lg-3 nopadding">
                <a href="localizacao.html">
