@@ -96,7 +96,6 @@ body{
   font-family: "thin";
   color: #fff;
   background: #f3f3f3;
-  min-width: 510px;
 }
 ul, li{
  list-style-type:none
@@ -175,6 +174,21 @@ ul > li > a:hover{
   padding-top: 0 important;
   height: 355px;
   background: #2c3d4f url(../img/captacao-bg.png) center repeat;
+}
+@media screen and (max-width: 549px) {
+    #captacao {
+        height: 380px;
+    }
+}
+@media screen and (max-width: 422px) {
+    #captacao {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 365px) {
+    #captacao {
+        height: 430px;
+    }
 }
 .arrow-e{
   position: absolute;
