@@ -241,7 +241,6 @@ footer{
 /* CONTENT */
 /* CONTENT */
 /* CONTENT */ /* CONTENT */ /* CONTENT */
-
 .navbar-nav{
   font-size: 1.22em;
 	padding-top: 2.3em;
@@ -352,9 +351,8 @@ h1{
 }
 
 /* Ghost Button */
-.btn-default-header{
+.btn-default-header:hover{
   color: #ecf0f1;
-  font-size: 17px !important;
 
   /* CSS Transition */
   -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
@@ -377,8 +375,9 @@ h1{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda917', endColorstr='#fc8f01',GradientType=0 );
 }
 
-.btn-default-header:hover{
+.btn-default-header{
   color: #ecf0f1 !important;
+  font-size: 17px;
 
   /* CSS Transition */
   -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
@@ -464,6 +463,25 @@ a:focus{
   }
 }
 
+#nossa-empresa div div div div{
+  background-image: url(../img/logo-garda-ef.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 156px;
+  width: 100%;
+  background-size: contain;
+}
+
+.ga p{
+  padding-top: 40px;
+  text-align: center;
+}
+
+@media screen and ( max-width: 378px ){
+  .ga p{
+    padding-top: 0px;
+  }
+}
 /* CONTACT */
 
 .border{
@@ -542,6 +560,10 @@ a:focus{
   background-color: #fff;
 }
 
+label{
+  font-size: 15px;
+}
+
 /* Telefones & e-mail */
 #back-to-bootsnipp {
     position: fixed;
@@ -618,4 +640,101 @@ ul.c-controls li a:hover {
 .c-info {
     padding: 5px 10px;
     font-size: 1.25em;
+}
+
+/* Tabelas */
+@media screen and ( max-width: 778px ){
+  .reduzir{
+    margin-left: -20px;
+  }
+}
+
+table.tableizer-table {
+border: 1px solid #CCC; font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+.tableizer-table td {
+padding: 4px;
+margin: 3px;
+border: 1px solid #ccc;
+}
+.tableizer-table th {
+background-color: #ffac28;
+color: #FFF;
+font-weight: bold;
+}
+.tabelas{
+  padding: 0;
+  margin: 0;
+}
+.tabelas div{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.tabelas-imob div{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.RS{
+  font-weight: bold;
+}
+
+.valores p {
+  color: rgba(38, 42, 45, 0.7);
+}
+
+.valores p strong{
+  color: #1F2A47;
+}
+.valores-btn{
+  margin: 0 auto;
+  text-align: center;
+}
+.valores-btn div .valores{
+  text-align: left;
+  margin-left: 45px;
+}
+
+@media screen and ( max-width: 768px ){
+  .valores-btn div .valores{
+    margin-left: 0px;
+  }
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tabelas div table{
+  width: 0%;
+}
+@media screen and ( max-width: 1137px ){
+  .tabelas div table{
+    font-size: 10px;
+  }
+}
+@media screen and ( max-width: 991px ){
+  .tabelas div table{
+    font-size: 100%;
+    width: 100%;
+  }
+}
+
+/* Formulario */
+.bootstrap-iso div div div form div label{
+  font-size: 18px;
+}
+.bootstrap-iso form button, .bootstrap-iso form button:hover{
+  color: #fff;
+}
+.asteriskField{
+  color: orange;
+}
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
+  font-size: 15px;
+}
+.col-centered{
+  margin: 0 auto;
+  float: none;
 }
