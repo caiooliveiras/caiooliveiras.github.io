@@ -1,0 +1,43 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
+
+
+#top .footer_color .input-text, #top .footer_color input[type='text'], #top .footer_color input[type='input'], #top .footer_color input[type='password'], #top .footer_color input[type='email'], #top .footer_color input[type='number'], #top .footer_color input[type='url'], #top .footer_color input[type='tel'], #top .footer_color input[type='search'], #top .footer_color textarea, #top .footer_color select {
+    border-color: #222222 !important;
+    background-color: #fff !important;
+    color: #222222 !important;
+}
+
+
+/* Animated Icons */
+.av_font_icon span:hover:after {
+-webkit-animation: sonarEffect 1s ease-out !important;
+-moz-animation: sonarEffect 1s ease-out !important;
+animation: sonarEffect 1s ease-out !important;
+}
